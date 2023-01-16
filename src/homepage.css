@@ -1,0 +1,197 @@
+.Home__header {
+  width: 100%;
+
+  color: white;
+  background: rgba(34, 34, 34);
+  background-image: url(./img//banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+}
+
+.Home__logo {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.logooo {
+  border-radius: 5px;
+  /* clip-path: circle(); */
+}
+
+.Home__hero h2 {
+  color: white;
+}
+
+.mis {
+  display: block;
+  flex-basis: 50%;
+}
+
+.dicline {
+  display: flex;
+  margin-left: 2em;
+  padding: 1em 0;
+}
+
+.liner {
+  display: none;
+}
+
+.Home__hero__con {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.Home__hero__con h2 {
+  margin-bottom: 0.3em;
+}
+
+.btn__Home {
+  background-color: transparent !important;
+  border: 2px solid white !important;
+  padding: 1em 3em;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  border-radius: 20px;
+}
+
+.HlinkH {
+  transition: all 0.3s ease-in-out;
+  color: whitesmoke;
+}
+
+.btn__home__full {
+  margin: 0.5em 0;
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.btn__Home:hover {
+  background-color: rgba(255, 255, 255, 0.296);
+  color: white;
+}
+
+.btn__Home:hover .HlinkH {
+  color: black;
+}
+
+.next__guide {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.flexHome {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.cardHome {
+  padding: 1em;
+  background-color: #051e37;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.btn__style {
+  background-color: transparent !important;
+  border: 2px solid white !important;
+  padding: 1em 3em;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  border-radius: 20px !important;
+  color: white !important;
+}
+
+.img__data {
+  width: 80px;
+  margin: 0 auto;
+}
+
+.cardHome h3 {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.btn_home {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+
+.lastSection {
+  background-color: #051e37;
+  padding: 2em 0;
+  color: white;
+}
+
+.flexx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.lastSection p {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.lastSection h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+}
+
+.text__home p,
+.text__home h1 {
+  text-align: center;
+}
+
+.footer {
+  background-color: #e9d16f;
+  padding: 1em 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text__home p {
+  font-weight: 500 !important;
+}
+
+.footer h5 {
+  font-weight: 500 !important;
+}
+
+@media (max-width: 768px) {
+  .flexx {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .lastSection h1 {
+    font-size: 30px;
+  }
+}
